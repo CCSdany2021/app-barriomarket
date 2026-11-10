@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- BUYER -->
+    <item android:id="@+id/buyerHomeFragment" android:title="Comprador" />
+
+    <!-- SELLER -->
+    <item android:id="@+id/sellerProductsFragment" android:title="Vendedor" />
+
+    <!-- ADMIN -->
+    <item android:id="@+id/adminDashboardFragment" android:title="Admin" />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buyerHomeFragment">
+
+    <fragment
+        android:id="@+id/buyerHomeFragment"
+        android:name="com.barriomarket.app.ui.buyer.BuyerHomeFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/buyerCatalogFragment"
+        android:name="com.barriomarket.app.ui.buyer.BuyerCatalogFragment"
+        android:label="Catálogo" />
+
+    <fragment
+        android:id="@+id/buyerCartFragment"
+        android:name="com.barriomarket.app.ui.buyer.BuyerCartFragment"
+        android:label="Carrito" />
+
+    <fragment
+        android:id="@+id/buyerProfileFragment"
+        android:name="com.barriomarket.app.ui.buyer.BuyerProfileFragment"
+        android:label="Perfil" />
+
+    <fragment
+        android:id="@+id/buyerPaymentFragment"
+        android:name="com.barriomarket.app.ui.buyer.BuyerPaymentFragment"
+        android:label="Pago" />
+    <fragment
+        android:id="@+id/adminDashboardFragment"
+        android:name="com.barriomarket.app.ui.admin.AdminDashboardFragment"
+        android:label="Panel de Control" />
+
+    <fragment
+        android:id="@+id/adminUsersFragment"
+        android:name="com.barriomarket.app.ui.admin.AdminUsersFragment"
+        android:label="Usuarios" />
+
+    <fragment
+        android:id="@+id/adminProductsFragment"
+        android:name="com.barriomarket.app.ui.admin.AdminProductsFragment"
+        android:label="Productos" />
+
+    <fragment
+        android:id="@+id/adminReportsFragment"
+        android:name="com.barriomarket.app.ui.admin.AdminReportsFragment"
+        android:label="Reportes" />
+</navigation>
